@@ -133,7 +133,7 @@ STR is the declaration."
   "Open the current buffer or active region in the mermaid live editor."
   (interactive)
   (browse-url
-   (concat "https://mermaidjs.github.io/mermaid-live-editor/#/edit/"
+   (concat "https://mermaid-js.github.io/mermaid-live-editor/#/edit/"
            (replace-regexp-in-string "\n" ""
                                      (base64-encode-string
                                       (if (use-region-p)
